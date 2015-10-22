@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Company" representedClassName=".Company" syncable="YES">
+        <attribute name="company_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="company_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="company_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Employee" inverseName="relationship" inverseEntity="Employee" syncable="YES"/>
+    </entity>
+    <entity name="Employee" representedClassName=".Employee" syncable="YES">
+        <attribute name="company_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employee_gender" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="employee_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employee_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Company" inverseName="relationship" inverseEntity="Company" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName=".Person" syncable="YES">
+        <attribute name="personName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Company" positionX="-308" positionY="-9" width="128" height="103"/>
+        <element name="Employee" positionX="-65" positionY="62" width="128" height="118"/>
+        <element name="Person" positionX="-171" positionY="90" width="128" height="60"/>
+    </elements>
+</model>
