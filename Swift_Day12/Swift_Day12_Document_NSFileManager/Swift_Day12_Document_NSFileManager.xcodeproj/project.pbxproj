@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C2816211BDB652700FEE19C /* ListFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C28161F1BDB652700FEE19C /* ListFileViewController.swift */; };
+		4C2816221BDB652700FEE19C /* ListFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2816201BDB652700FEE19C /* ListFileViewController.xib */; };
+		4C2816261BDB673600FEE19C /* SwiftCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2816241BDB673600FEE19C /* SwiftCustomTableViewCell.swift */; };
+		4C2816271BDB673600FEE19C /* SwiftCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2816251BDB673600FEE19C /* SwiftCustomTableViewCell.xib */; };
+		4C28162A1BDB6E8F00FEE19C /* ContentFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2816281BDB6E8F00FEE19C /* ContentFileViewController.swift */; };
+		4C28162B1BDB6E8F00FEE19C /* ContentFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2816291BDB6E8F00FEE19C /* ContentFileViewController.xib */; };
 		4C32572E1BC2C77400AC14F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C32572D1BC2C77400AC14F4 /* AppDelegate.swift */; };
 		4C3257301BC2C77400AC14F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C32572F1BC2C77400AC14F4 /* ViewController.swift */; };
 		4C3257331BC2C77400AC14F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3257311BC2C77400AC14F4 /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C28161F1BDB652700FEE19C /* ListFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListFileViewController.swift; path = Swift_Day12_Document_NSFileManager/ListFileViewController.swift; sourceTree = "<group>"; };
+		4C2816201BDB652700FEE19C /* ListFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ListFileViewController.xib; path = Swift_Day12_Document_NSFileManager/ListFileViewController.xib; sourceTree = "<group>"; };
+		4C2816241BDB673600FEE19C /* SwiftCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCustomTableViewCell.swift; sourceTree = "<group>"; };
+		4C2816251BDB673600FEE19C /* SwiftCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftCustomTableViewCell.xib; sourceTree = "<group>"; };
+		4C2816281BDB6E8F00FEE19C /* ContentFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentFileViewController.swift; sourceTree = "<group>"; };
+		4C2816291BDB6E8F00FEE19C /* ContentFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentFileViewController.xib; sourceTree = "<group>"; };
 		4C32572A1BC2C77400AC14F4 /* Swift_Day12_Document_NSFileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Day12_Document_NSFileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C32572D1BC2C77400AC14F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C32572F1BC2C77400AC14F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,9 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C2816231BDB673600FEE19C /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				4C2816241BDB673600FEE19C /* SwiftCustomTableViewCell.swift */,
+				4C2816251BDB673600FEE19C /* SwiftCustomTableViewCell.xib */,
+				4C2816281BDB6E8F00FEE19C /* ContentFileViewController.swift */,
+				4C2816291BDB6E8F00FEE19C /* ContentFileViewController.xib */,
+			);
+			name = CustomCell;
+			path = Swift_Day12_Document_NSFileManager/CustomCell;
+			sourceTree = "<group>";
+		};
 		4C3257211BC2C77400AC14F4 = {
 			isa = PBXGroup;
 			children = (
+				4C2816231BDB673600FEE19C /* CustomCell */,
+				4C28161F1BDB652700FEE19C /* ListFileViewController.swift */,
+				4C2816201BDB652700FEE19C /* ListFileViewController.xib */,
 				4C32572C1BC2C77400AC14F4 /* Swift_Day12_Document_NSFileManager */,
 				4C3257411BC2C77500AC14F4 /* Swift_Day12_Document_NSFileManagerTests */,
 				4C32574C1BC2C77500AC14F4 /* Swift_Day12_Document_NSFileManagerUITests */,
@@ -228,8 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C28162B1BDB6E8F00FEE19C /* ContentFileViewController.xib in Resources */,
 				4C3257381BC2C77400AC14F4 /* LaunchScreen.storyboard in Resources */,
+				4C2816271BDB673600FEE19C /* SwiftCustomTableViewCell.xib in Resources */,
 				4C3257351BC2C77400AC14F4 /* Assets.xcassets in Resources */,
+				4C2816221BDB652700FEE19C /* ListFileViewController.xib in Resources */,
 				4C3257331BC2C77400AC14F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2816261BDB673600FEE19C /* SwiftCustomTableViewCell.swift in Sources */,
 				4C3257301BC2C77400AC14F4 /* ViewController.swift in Sources */,
+				4C2816211BDB652700FEE19C /* ListFileViewController.swift in Sources */,
 				4C32572E1BC2C77400AC14F4 /* AppDelegate.swift in Sources */,
+				4C28162A1BDB6E8F00FEE19C /* ContentFileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +516,7 @@
 				4C3257541BC2C77500AC14F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C3257551BC2C77500AC14F4 /* Build configuration list for PBXNativeTarget "Swift_Day12_Document_NSFileManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +525,7 @@
 				4C3257571BC2C77500AC14F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C3257581BC2C77500AC14F4 /* Build configuration list for PBXNativeTarget "Swift_Day12_Document_NSFileManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +534,7 @@
 				4C32575A1BC2C77500AC14F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
