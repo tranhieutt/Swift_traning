@@ -40,9 +40,29 @@ class ContentFileViewController: UIViewController {
             imageManager.requestImageForAsset(asset, targetSize: targetSize, contentMode: .AspectFit, options: nil, resultHandler: {
                 (result, info)->Void in
                 self.imagePhotoView.image = result
+           
+                let data = self.convertImageToNSData(self.imagePhotoView.image!)
+                self.convertNSDataToImage(data)
+                // day data to server
+//
             })
         }
     }
-
+    
+    
+    
+    func convertImageToNSData(imageView:UIImage) -> NSData{
+        let imageData: NSData = UIImagePNGRepresentation(imageView)!
+        // wrap print
+        print(imageData)
+        return imageData
+    }
+    func convertNSDataToImage(data:NSData){
+        let image : UIImage = UIImage(data: data)!
+        let imageView = UIImageView(image: image)
+        print(imageView)
+       
+        
+    }
 
 }

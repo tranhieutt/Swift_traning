@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1ED4121BDFA43400E9F8A3 /* ListFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C1ED4111BDFA43400E9F8A3 /* ListFile.plist */; };
 		4C2816211BDB652700FEE19C /* ListFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C28161F1BDB652700FEE19C /* ListFileViewController.swift */; };
 		4C2816221BDB652700FEE19C /* ListFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2816201BDB652700FEE19C /* ListFileViewController.xib */; };
 		4C2816261BDB673600FEE19C /* SwiftCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2816241BDB673600FEE19C /* SwiftCustomTableViewCell.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C1ED4111BDFA43400E9F8A3 /* ListFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ListFile.plist; sourceTree = "<group>"; };
 		4C28161F1BDB652700FEE19C /* ListFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListFileViewController.swift; path = Swift_Day12_Document_NSFileManager/ListFileViewController.swift; sourceTree = "<group>"; };
 		4C2816201BDB652700FEE19C /* ListFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ListFileViewController.xib; path = Swift_Day12_Document_NSFileManager/ListFileViewController.xib; sourceTree = "<group>"; };
 		4C2816241BDB673600FEE19C /* SwiftCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCustomTableViewCell.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		4C3257211BC2C77400AC14F4 = {
 			isa = PBXGroup;
 			children = (
+				4C1ED4111BDFA43400E9F8A3 /* ListFile.plist */,
 				4C2816231BDB673600FEE19C /* CustomCell */,
 				4C28161F1BDB652700FEE19C /* ListFileViewController.swift */,
 				4C2816201BDB652700FEE19C /* ListFileViewController.xib */,
@@ -261,6 +264,7 @@
 				4C3257351BC2C77400AC14F4 /* Assets.xcassets in Resources */,
 				4C2816221BDB652700FEE19C /* ListFileViewController.xib in Resources */,
 				4C3257331BC2C77400AC14F4 /* Main.storyboard in Resources */,
+				4C1ED4121BDFA43400E9F8A3 /* ListFile.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

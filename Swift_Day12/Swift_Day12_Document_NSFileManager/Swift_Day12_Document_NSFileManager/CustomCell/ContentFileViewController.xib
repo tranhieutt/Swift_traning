@@ -26,6 +26,30 @@
                         <outlet property="delegate" destination="-1" id="7Ql-Yj-g9T"/>
                     </connections>
                 </textView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5M-ZD-io1">
+                    <rect key="frame" x="93" y="279" width="205" height="37"/>
+                    <animations/>
+                    <state key="normal" title="Save to plist file"/>
+                    <connections>
+                        <action selector="saveFileToPlistAction:" destination="-1" eventType="touchUpInside" id="LOV-0J-c8k"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5i-1s-WwM">
+                    <rect key="frame" x="123" y="344" width="143" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Create New Folder"/>
+                    <connections>
+                        <action selector="createFolderAction:" destination="-1" eventType="touchUpInside" id="BsG-kD-hsT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0n-TY-QTa">
+                    <rect key="frame" x="144" y="462" width="115" height="23"/>
+                    <animations/>
+                    <state key="normal" title="Test OtherFunction"/>
+                    <connections>
+                        <action selector="testOtherFunction:" destination="-1" eventType="touchUpInside" id="mIh-Qo-jkQ"/>
+                    </connections>
+                </button>
             </subviews>
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

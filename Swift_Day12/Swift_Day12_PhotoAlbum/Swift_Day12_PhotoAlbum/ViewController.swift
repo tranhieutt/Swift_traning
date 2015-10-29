@@ -50,7 +50,10 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
                         let collection = PHAssetCollection.fetchAssetCollectionsWithLocalIdentifiers([albumPlaceholder.localIdentifier], options: nil)
                         self.assetCollection = collection.firstObject as! PHAssetCollection
                     }else{
-                        print("Error creating folder")
+                        #if DEBUG
+                             print("Error creating folder")
+                        #endif
+                       
 
                     }
             })
@@ -180,7 +183,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         
 
 
-        cell.fileNameCell.text = arrayOfTiming[indexPath.row] as! String
+//        cell.fileNameCell.text = arrayOfTiming[indexPath.row]
         return cell
     }
     

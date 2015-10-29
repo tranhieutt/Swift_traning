@@ -31,7 +31,7 @@ class ListFileViewController: UIViewController,UITableViewDataSource,UITableView
         
     }
     
-    
+    // MARK: UITableView Datasource
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return (numberOfFile!.count)
     }
@@ -45,7 +45,7 @@ class ListFileViewController: UIViewController,UITableViewDataSource,UITableView
         cell.fileNameCell.text = numberOfFile![indexPath.row] as? String
         return cell
     }
-
+    // MARK: UITableView Delegate
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         
