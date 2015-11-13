@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+
+pod 'TUSafariActivity'
+pod 'GoogleAnalytics-iOS-SDK'
+pod 'TMCache'
+pod 'Mixpanel'
+pod 'MMWormhole'
+pod 'Parse'
+pod 'SDCloudUserDefaults'
+
