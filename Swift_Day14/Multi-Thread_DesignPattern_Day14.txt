@@ -1,0 +1,37 @@
+#GCD:
+http://www.raywenderlich.com/79149/grand-central-dispatch-tutorial-swift-part-1
+http://www.raywenderlich.com/79150/grand-central-dispatch-tutorial-swift-part-2
+
+Demo GCD:
+https://github.com/piaotairen/GCD
+https://github.com/qingjie/NSThread-Gcd-NSOperation-NSOperationQueue-Demo
+https://github.com/icetime17/DemoMultiThread
+
+#NSOperationQueue:
+https://developer.apple.com/videos/play/wwdc2015-226/
+http://www.raywenderlich.com/76341/use-nsoperation-nsoperationqueue-swift
+http://nshipster.com/nsoperation/
+
+
+#MVVM:
+http://twocentstudios.com/2014/06/08/on-mvvm-and-architecture-questions/
+http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction/
+http://artsy.github.io/blog/2015/09/24/mvvm-in-swift/
+http://www.teehanlax.com/blog/model-view-viewmodel-for-ios/
+https://www.objc.io/issues/13-architecture/mvvm/
+http://www.raywenderlich.com/74106/mvvm-tutorial-with-reactivecocoa-part-1
+http://www.raywenderlich.com/74131/mvvm-tutorial-with-reactivecocoa-part-2
+
+#VIPER:
+https://www.objc.io/issues/13-architecture/viper/
+https://mutualmobile.github.io/blog/2013/12/04/viper-introduction/
+http://code.oursky.com/viper-ios-architecture-beyond-mega-viewcontroller/
+
+#Lighter ViewController:
+https://www.objc.io/issues/1-view-controllers/
+http://khanlou.com/2014/09/8-patterns-to-help-you-destroy-massive-view-controller/
+
+#Design Pattern:
+http://www.raywenderlich.com/86477/introducing-ios-design-patterns-in-swift-part-1
+http://www.raywenderlich.com/90773/introducing-ios-design-patterns-in-swift-part-2
+http://www.raywenderlich.com/86053/intermediate-design-patterns-in-swift
