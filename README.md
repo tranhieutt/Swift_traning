@@ -1,4 +1,6 @@
 # Swift_traning - Create by 3S iOS Team
+
+[![Join the chat at https://gitter.im/tranhieutt/Swift_traning](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/tranhieutt/Swift_traning?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Learn Swift 
 Day 1:	Swift introduction (overview swift language features)<br>
 Day 2: Primitive data type - String - Booleans - Characters - Collection types - Control flow - Enumerations and Tuples<br>
